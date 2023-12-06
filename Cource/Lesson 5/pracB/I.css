@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-family: Marker Felt, fantasy;
+    font-size: 40px;
+  }
+  
+.disc{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+  }
+  
+.city,
+.age,
+.hobby,
+.git,
+.contact{
+    width: 400px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+  }
+
+.story{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    color: blueviolet;
+}
+
+img{
+    width: 800px;
+    margin-left: 200px;
+  }
+  
+.pic{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:blue;
+
+    margin-bottom: 120px;
+    margin-left: 20px;
+  }
