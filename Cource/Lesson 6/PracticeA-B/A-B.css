@@ -1,0 +1,49 @@
+.wildlife-title{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+
+.wildlife-list{
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+}
+
+li{
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    width: 400px;
+
+    padding: 20px 10px;
+
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.illustr{
+    width: 400px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+}
+
+.wildlife-description{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+}
+
+.wildlife-image{
+    background-image: url('https://w.forfun.com/fetch/f5/f57791e62c88ea9312bfcf97a82752c2.jpeg');
+    background-size: cover;
+    width: 1250px;
+    height: 700px;
+}
