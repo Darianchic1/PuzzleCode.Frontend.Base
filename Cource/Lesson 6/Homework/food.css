@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    margin-left: 100px;
+}
+
+li{
+    padding: 20px 10px;
+
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.zag{
+    font-size: 29px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Arial', sans-serif;
+    width: 400px;
+}
+
+.illustr{
+    width: 600px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainy{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.pmain{
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tel{
+    color: rgb(4, 77, 145);
+}
