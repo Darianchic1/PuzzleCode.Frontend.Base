@@ -1,0 +1,13 @@
+li:nth-child(2n){
+    background-color: red;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+/*смысл менять маркеры (и как менять, конкретики не хватает) если из-за normalise они всё равно не видны...*/
+
+::placeholder{
+    background-color: aqua;
+}
