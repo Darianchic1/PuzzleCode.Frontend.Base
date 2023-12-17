@@ -1,0 +1,14 @@
+.block{
+    display: block;
+    background-color: aquamarine;
+}
+
+.inline{
+    display:inline;
+    background-color: rgb(204, 0, 255);
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: burlywood;
+}
