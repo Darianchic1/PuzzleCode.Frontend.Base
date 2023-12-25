@@ -1,0 +1,348 @@
+body{
+    width: 100%;
+
+    height: 100%;
+}
+
+.bg{
+    background-image: url("image.jpg");
+
+    width: 100%;
+    height: 954px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.bg2{
+    background-image: url("img2.jpg");
+
+    width: 100%;
+    height: 694px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.orig{
+    color: white;
+    font-size: 15px;
+    font-family: Livvic;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+
+    outline: 1px solid red;
+}
+
+.high{
+    color: #F7C35F;
+    font-size: 50px;
+    font-family: Livvic;
+    font-weight: 700;
+    word-wrap: break-word;
+
+    width: 100%;
+
+    outline: 1px solid red;
+}
+
+.desc{
+    color: white;
+    font-size: 50px;
+    font-family: Livvic;
+    font-weight: 400;
+    word-wrap: break-word; 
+    
+    outline: 1px solid red;
+}
+
+.description{
+    color: white;
+    font-size: 15px;
+    font-family: Livvic;
+    font-weight: 400;
+    word-wrap: break-word;
+
+    width: 85%;
+
+    outline: 1px solid red;
+}
+
+button{
+color: #1A1A1A;
+font-size: 15px;
+font-family: Livvic;
+font-weight: 500;
+text-transform: uppercase;
+word-wrap: break-word;
+
+width: 30%; 
+height: 100%; 
+padding-left: 40px; 
+padding-right: 40px; 
+padding-top: 15px; 
+padding-bottom: 15px; 
+
+background: #F7C35F;
+border-radius: 10px; 
+justify-content: flex-start; 
+align-items: flex-start; 
+gap: 10px; 
+display: inline-flex;
+border: none;
+
+margin-top: 30px;
+
+outline: 1px solid red;
+}
+
+.orn{
+    width: 8%;
+    position:absolute;
+
+    margin-left: 58.4%;
+    margin-top: 3%;
+
+    outline: 1px solid red;
+}
+
+.cover{
+    width: 55%;
+    margin-left: 21%;
+    margin-top: -56%;
+    position: absolute;
+
+    outline: 1px solid red;
+
+    z-index: 4;
+
+}
+
+.block2{
+    margin-top: -9%;
+    position: relative;
+    height: 656px;
+    background-color: #334B35;
+    padding: 8%;
+}
+
+.block4{
+    margin-top: -9%;
+    height: 900px;
+    background-color: #263C28;
+}
+
+
+.zag{
+    color: #FFF;
+
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+text-transform: uppercase;
+
+text-align: center;
+
+margin-bottom: 2%;
+margin-top: 8%;
+
+outline: 1px solid red;
+}
+
+.qu{
+    color: #ffffff;
+
+font-family: Livvic;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+text-align: center;
+
+margin-top: 2%;
+margin-bottom: 10%;
+
+outline: 1px solid red;
+}
+
+.pod{
+    position: absolute;
+
+    width: 177px;
+    height: 177px;
+
+    border-radius: 15px;
+
+    background: #445945;
+
+    outline: 1px solid red;
+}
+
+.inside{
+    position: relative;
+
+    outline: 1px solid red;
+}
+
+.cards{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    outline: 1px solid red;
+}
+
+.name{
+    text-align: center;
+
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-bottom: 33px;
+
+    outline: 1px solid red;
+}
+
+.fruit{
+    padding-top: 33px;
+    padding-left: 57px;
+    padding-right: 57px;
+
+    outline: 1px solid red;
+}
+
+.art{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 50%;
+
+    position: absolute;
+    z-index: 4;
+
+    margin-top: -35%;
+    margin-left: 15%;
+
+    outline: 1px solid red;
+}
+
+
+.texts{
+    padding-top: 10%;
+    
+    outline: 1px solid red;
+}
+
+.pic{
+    position: relative;
+    width:90%;
+    border-radius: 10px;
+    
+    outline: 1px solid red;
+
+}
+
+.nadpisi{
+    position: absolute;
+    
+    margin-top: -10%;
+    margin-left: 2%;
+
+    width: 15%;
+
+    outline: 1px solid red;
+
+}
+
+.dop{
+    color: #F7C35F;
+font-family: Livvic;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+
+outline: 1px solid red;
+}
+
+.main{
+color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+
+outline: 1px solid red;
+}
+
+.picts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-left: 5%;
+    
+    outline: 1px solid red;
+}
+
+.str{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: -3%;
+
+    outline: 1px solid red;
+}
+
+.fon{
+    position: relative;
+    margin-top: -12%;
+
+    width: 100%;
+}
+
+.tick{
+    display: flex;
+    flex-direction: row;
+}
+.t1{
+    width: 20px;
+    height: 10px;
+
+    background: #F7C35F; 
+    border-radius: 50px;
+
+    position: relative;
+
+    margin-top: -8%;
+    margin-left: 49%;
+}
+
+.t2{
+    width: 10px;
+    height: 10px;
+
+    background: #CCC; 
+    border-radius: 99px;
+
+    position: relative;
+
+    margin-top: -8%;
+    margin-left: 0.5%;
+}
+
