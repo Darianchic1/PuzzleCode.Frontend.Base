@@ -1,0 +1,31 @@
+button:hover{
+    transition: transform 0.3s;
+
+    background: #F6D086;
+}
+
+button:focus{
+    transition: transform 0.3s;
+
+    background: #C58D21;
+}
+
+button:active{
+    transition: transform 0.3s;
+
+    background: #A16C06;
+    color: rgb(255, 255, 255);
+}
+
+.pod:hover{
+    background: #F7C35F;
+    color: #000;
+}
+
+.pod:focus{
+    background:  #6A8A6D;
+}
+
+.pod:active{
+    background:  #263C28;
+}
