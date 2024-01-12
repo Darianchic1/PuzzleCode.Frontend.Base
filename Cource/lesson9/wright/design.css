@@ -1,10 +1,11 @@
-body{
+body {
     width: 100%;
-
+    background-color: #334B35;
     height: 100%;
 }
 
-.bg{
+
+.bg {
     background-image: url("image.jpg");
 
     width: 100%;
@@ -14,28 +15,25 @@ body{
     z-index: 1;
 }
 
-.bg2{
+.bg2 {
     background-image: url("img2.jpg");
 
     width: 100%;
     height: 694px;
 
     position: relative;
-    z-index: 1;
 }
 
-.orig{
+.orig {
     color: white;
     font-size: 15px;
     font-family: Livvic;
     font-weight: 400;
     line-height: 30px;
     word-wrap: break-word;
-
-    outline: 1px solid red;
 }
 
-.high{
+.high {
     color: #F7C35F;
     font-size: 50px;
     font-family: Livvic;
@@ -43,21 +41,17 @@ body{
     word-wrap: break-word;
 
     width: 100%;
-
-    outline: 1px solid red;
 }
 
-.desc{
+.desc {
     color: white;
     font-size: 50px;
     font-family: Livvic;
     font-weight: 400;
-    word-wrap: break-word; 
-    
-    outline: 1px solid red;
+    word-wrap: break-word;
 }
 
-.description{
+.description {
     color: white;
     font-size: 15px;
     font-family: Livvic;
@@ -65,63 +59,54 @@ body{
     word-wrap: break-word;
 
     width: 85%;
-
-    outline: 1px solid red;
 }
 
-button{
-color: #1A1A1A;
-font-size: 15px;
-font-family: Livvic;
-font-weight: 500;
-text-transform: uppercase;
-word-wrap: break-word;
+button {
+    color: #1A1A1A;
+    font-size: 15px;
+    font-family: Livvic;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
 
-width: 30%; 
-height: 100%; 
-padding-left: 40px; 
-padding-right: 40px; 
-padding-top: 15px; 
-padding-bottom: 15px; 
+    height: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 
-background: #F7C35F;
-border-radius: 10px; 
-justify-content: flex-start; 
-align-items: flex-start; 
-gap: 10px; 
-display: inline-flex;
-border: none;
+    background: #F7C35F;
+    border-radius: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    border: none;
 
-margin-top: 30px;
+    margin-top: 30px;
 
-cursor: pointer;
-
-outline: 1px solid red;
+    cursor: pointer;
 }
 
-.orn{
+.orn {
     width: 8%;
-    position:absolute;
+    position: absolute;
 
     margin-left: 58.4%;
     margin-top: 3%;
-
-    outline: 1px solid red;
 }
 
-.cover{
+.cover {
     width: 55%;
     margin-left: 21%;
     margin-top: -56%;
     position: absolute;
 
-    outline: 1px solid red;
-
     z-index: 4;
 
 }
 
-.block2{
+.block2 {
     margin-top: -9%;
     position: relative;
     height: 656px;
@@ -129,77 +114,67 @@ outline: 1px solid red;
     padding: 8%;
 }
 
-.block4{
+.block4 {
     margin-top: -9%;
-    height: 900px;
+    height: 903px;
     background-color: #263C28;
 }
 
 
-.zag{
+.zag {
     color: #FFF;
 
-font-family: Livvic;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
-text-transform: uppercase;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
 
-text-align: center;
+    text-align: center;
 
-margin-bottom: 2%;
-margin-top: 8%;
-
-outline: 1px solid red;
+    margin-bottom: 2%;
+    margin-top: 8%;
 }
 
-.qu{
+.qu {
     color: #ffffff;
 
-font-family: Livvic;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
-text-align: center;
+    text-align: center;
 
-margin-top: 2%;
-margin-bottom: 10%;
-
-outline: 1px solid red;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
-.pod{
+.pod {
     position: absolute;
 
-    width: 177px;
+    width: 30%;
     height: 177px;
 
     border-radius: 15px;
 
     background: #445945;
-
-    outline: 1px solid red;
 }
 
-.inside{
+.inside {
     position: relative;
-
-    outline: 1px solid red;
 }
 
-.cards{
+.cards {
     margin-top: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
-    outline: 1px solid red;
+    justify-content: space-around;
 }
 
-.name{
+.name {
     text-align: center;
 
     color: #FFF;
@@ -209,21 +184,17 @@ outline: 1px solid red;
     font-weight: 600;
     line-height: normal;
 
-    padding-bottom: 33px;
-
-    outline: 1px solid red;
+    margin-bottom: 33px;
 }
 
-.fruit{
+.fruit {
 
     padding-top: 33px;
     padding-left: 57px;
     padding-right: 57px;
-
-    outline: 1px solid red;
 }
 
-.art{
+.art {
     color: #FFF;
     font-family: Livvic;
     font-size: 50px;
@@ -234,77 +205,66 @@ outline: 1px solid red;
     width: 50%;
 
     position: absolute;
-    z-index: 4;
 
     margin-top: -35%;
     margin-left: 15%;
-
-    outline: 1px solid red;
 }
 
 
-.texts{
+.texts {
     padding-top: 10%;
-    
-    outline: 1px solid red;
 }
 
-.pic{
+.pic {
     position: relative;
-    width:90%;
+    width: 90%;
     border-radius: 10px;
-    
-    outline: 1px solid red;
-
 }
 
-.nadpisi{
+.nadpisi {
     position: absolute;
-    
+
     margin-top: -10%;
     margin-left: 2%;
 
     width: 15%;
-
-    outline: 1px solid red;
-
 }
 
-.dop{
+.dop {
     color: #F7C35F;
-font-family: Livvic;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-
-outline: 1px solid red;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-.main{
-color: #FFF;
-font-family: Livvic;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
-
-outline: 1px solid red;
+.main {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
-.picts{
+.picts {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
     margin-left: 5%;
-    
-    outline: 1px solid red;
 }
 
-.str{
+.str {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: -3%;
+}
+
+.str1 {
     position: absolute;
     margin-top: 18%;
     margin-left: -3%;
@@ -312,22 +272,23 @@ outline: 1px solid red;
     outline: 1px solid red;
 }
 
-.fon{
+.fon {
     position: relative;
-    margin-top: -12%;
+    margin-top: -12.1%;
 
     width: 100%;
 }
 
-.tick{
+.tick {
     display: flex;
     flex-direction: row;
 }
-.t1{
+
+.t1 {
     width: 20px;
     height: 10px;
 
-    background: #F7C35F; 
+    background: #F7C35F;
     border-radius: 50px;
 
     position: relative;
@@ -336,16 +297,287 @@ outline: 1px solid red;
     margin-left: 49%;
 }
 
-.t2{
+.t2 {
     width: 10px;
     height: 10px;
 
-    background: #CCC; 
+    background: #CCC;
     border-radius: 99px;
 
     position: relative;
 
     margin-top: -8%;
     margin-left: 0.5%;
+}
+
+
+/*header*/
+header {
+    height: 50px;
+    background: #334B35;
+}
+
+.logo {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.puncts {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.menu {
+    margin-top: -3.4%;
+    margin-left: 45%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*contact*/
+.contacts {
+    background-color: #334B35;
+    height: 23%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.mini {
+    width: 160%;
+    margin-top: 10%;
+    background-color: #263C28;
+    border: none;
+    border-radius: 10px;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+
+
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.max {
+    width: 160%;
+    margin-top: 10%;
+
+    background-color: #263C28;
+    border: none;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 130px;
+    padding-left: 30px;
+
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.contact {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.hh2 {
+    color: #000;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+    text-transform: uppercase;
+}
+
+.hh1 {
+    color: #000;
+
+    font-family: Livvic;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.opis {
+    color: #000;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+
+    width: 530px;
+}
+
+.names {
+    color: #000;
+
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 214.286% */
+    text-transform: uppercase;
+}
+
+.inf {
+    color: #000;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.send {
+    width: 100%;
+    height: 10%;
+    color: #1A1A1A;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+
+.footer{
+    margin-top: 20%;
+    background-color: #334B35;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block-flex{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.footer-text-down{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-text-up1{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.footer-text-up2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input{
+    height: 30px;
+    background-color: #263C28;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20%;
+}
+
+#button-1{
+    width: 30%; 
+    height: 100%; 
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
+#button-2{
+    width: 14%; 
+    height: 30%; 
+    padding-left: 12px; 
+    padding-right: 15px; 
+    padding-top: 14px; 
+    padding-bottom: 14px;
+    border-radius: 50px;
+
+    margin-right: 15%;
+    margin-top: -1%;
+}
+
+button{
+    color: #1A1A1A;
+    font-size: 13px;
+    font-family: Livvic;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    background: #F7C35F;
+     
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex;
+    border: none;
+
+    cursor: pointer;
+
 }
 
