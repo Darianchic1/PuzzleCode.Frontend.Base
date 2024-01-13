@@ -1,0 +1,188 @@
+@media(max-width: 1200px){
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .inside{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .picts{
+        flex-wrap: wrap;
+    }
+
+    .pict{
+        margin-top: 4%;
+    }
+
+    .nadpisi{
+        margin-top: -12%;
+    }
+
+    .block4{
+        height: 1200px;
+    }
+
+    .fon{
+        visibility: hidden;
+    }
+
+
+}
+
+@media (max-width: 1100px){
+    footer{
+        margin-left: 2%;
+    }
+
+    .footer-list{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1000px){
+    .menu{
+        flex-direction: column;
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+    
+    .logo{
+        scale: 1.5;
+        margin-left: 15%;
+    }
+    
+    .puncts{
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+    
+    .menu-text{
+        display: flex;
+        align-items: center;
+    }
+    
+    .cover{
+        margin-top: -90%;
+    }
+
+    .nadpisi{
+        margin-top: -15%;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+
+    .mini{
+        margin-top: 1%;
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .max{
+        margin-top: 1%;
+        width: 70%;
+        margin-left: 15%;
+        display: block;
+    }
+
+    .send{
+        margin-top: 5%;
+        width: 50%;
+        margin-left: 25%;
+        display: block;
+    }
+
+    }
+
+
+@media (max-width: 790px){
+    .art{
+        margin-top: -80%;
+    }
+
+    .nadpisi{
+        margin-top: -19%;
+    }
+}
+
+
+@media (max-width: 685px){
+    .cover{
+        margin-top: -110%;
+    }
+
+    .block2{
+        height: 903px;
+    }
+
+    .nadpisi{
+        margin-top: -26%;
+    }
+
+    .block4{
+        height: 1750px;
+    }
+
+    .contacts{
+        margin-top: 2%;
+    }
+
+    .button2{
+        margin-right: 10%;
+    }
+
+    .footer-input{
+        font-size: smaller;
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 500px){
+    .nadpisi{
+        margin-top: -38%;
+        width: 30%;
+    }
+
+    .art{
+        margin-top: -100%;
+    }
+
+}
+
+
+@media (max-width: 340px){
+    .nadpisi{
+        margin-top: -60%;
+        width: 30%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
