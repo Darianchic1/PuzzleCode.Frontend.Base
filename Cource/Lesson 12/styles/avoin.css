@@ -135,6 +135,8 @@ block1
     margin-bottom: 20%;
     border: none;
     background-color: rgba(249, 249, 249, 0.15);
+
+    cursor: pointer;
 }
 
 .bl1_right {
